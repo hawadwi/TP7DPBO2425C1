@@ -97,11 +97,6 @@ Untuk hapus jadwal, sistemnya harus hapus reminder-nya dulu baru hapus jadwalnya
 1. Jalanin query DELETE untuk hapus semua reminder dengan id_schedule tersebut
 2. Baru jalanin query DELETE untuk hapus jadwal itu sendiri
 
-### Sistem Reminder Otomatis
-
-#### Cara Kerja Generasi Reminder
-Seperti yang udah dijelasin di bagian tambah jadwal, sistem otomatis bikin 4 reminder dengan waktu yang berbeda-beda. Ini dilakukan oleh fungsi `generateReminders()` yang nerima parameter id_schedule, tanggal jadwal, dan nama aktivitas. Fungsi ini menghitung mundur dari tanggal jadwal untuk nentuin kapan masing-masing reminder harus dikirim, terus insert semua reminder ke database dengan status 'tertunda'.
-
 #### Cara Kelola Reminder
 Di halaman `reminders.php`, kita bisa:
 
@@ -126,12 +121,6 @@ Dashboard ini halaman utama yang nampilin overview dari semua data. Prosesnya:
    - Panel khusus untuk aktivitas hari ini atau tanggal yang dipilih
 
 ## 4. FITUR-FITUR 
-
-### Filter dan Pencarian
-Sistem punya beberapa fitur filter dan search:
-- Bisa filter jadwal berdasarkan status (tampilin semua, cuma yang belum dimulai, cuma yang lagi berlangsung, atau cuma yang udah selesai)
-- Bisa filter jadwal berdasarkan tanggal tertentu
-- Bisa search user berdasarkan nama atau email mereka
 
 ### Status Tracking Jadwal
 Setiap jadwal punya lifecycle dengan 3 status:
