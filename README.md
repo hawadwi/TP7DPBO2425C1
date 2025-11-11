@@ -1,7 +1,7 @@
 # TP7DPBO2425C1
+Saya Hawa Dwiafina Azahra dengan NIM 2400336 mengerjakan Tugas Praktikum 7 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
-
-##1. Tema Website
+## 1. Tema Website
 Website yang dibuat adalah sistem manajemen jadwal dengan nama "Best Schedule". Jadi intinya, website ini dibuat buat bantu orang-orang ngatur jadwal dan aktivitas mereka biar gak ada yang kelupaan. Website ini punya fitur pengingat otomatis yang bakal ngingetin kita kalau ada jadwal penting.
 
 Fitur-fitur yang ada di website ini:
@@ -150,5 +150,19 @@ Reminder juga punya status buat tracking:
 - **Terkirim**: Reminder yang udah dikirim ke user
 
 
+## Dokumentasi
 
+### USER
+![ADD & EDIT ](./dokumentasi/ADD&EDIT_USER.gif)
+![DELETE](./dokumentasi/DELETE_USER.gif)
+
+### SCHEDULE
+![ADD](./dokumentasi/ADD_SCHEDULE.gif)
+![EDIT](./dokumentasi/EDIT_SCHEDULE.gif)
+![DELETE](./dokumentasi/DELETE_SCHEDULE.gif)
+
+### REMINDER
+![ADD](./dokumentasi/ADD_REMINDER.gif)
+![EDIT](./dokumentasi/EDIT_REMINDER.gif)
+![DELETE](./dokumentasi/DELETE_REMINDER.gif)
 
